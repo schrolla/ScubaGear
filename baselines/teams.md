@@ -57,13 +57,16 @@ strengthen the security of widely used cloud-based software services.
 
 # 2. Baseline
 
-## 2.1 External Participants SHOULD NOT Be Enabled to Request Control of Shared Desktops or Windows in Meetings
+## Requesting Control
 
 This setting controls whether external meeting participants can request
 control of the shared desktop or window during the meeting. In this
 instance, the term “external participants” includes external users, B2B
 guest users, unmanaged users and anonymous users.
 
+### Policy
+
+#### MS-TMS-001-001: External participants SHOULD NOT be enabled to request control of shared desktops or windows in the Global (Org-wide default) meeting policy or in custom meeting policies if any exist.
 While there is some inherent risk in granting an external participant
 control of a shared screen, legitimate use cases for this exist.
 Furthermore, the risk is minimal as users cannot gain control of another
@@ -72,22 +75,16 @@ control request. As such, while enabling external participants to
 request control is discouraged, it may be done, depending on agency
 need.
 
-### 2.1.1 Policy
-
-- External participants SHOULD NOT be enabled to request control of shared
-desktops or windows in the Global (Org-wide default) meeting policy or
-in custom meeting policies if any exist.
-
-### 2.1.2 Resources
+### Resources
 
 - [Configure desktop sharing in Microsoft Teams \| Microsoft
   Docs](https://docs.microsoft.com/en-us/microsoftteams/configure-desktop-sharing)
 
-### 2.1.3 License Requirements
+### License Requirements
 
 - N/A
 
-### 2.1.4 Implementation
+### Implementation
 
 To ensure external participants do not have the ability to request
 control of the shared desktop or window in the meeting:
@@ -105,29 +102,25 @@ control of the shared desktop or window in the meeting:
 5.  If custom policies have been created, repeat these steps for each
     policy, selecting the appropriate policy in step 3.
 
-## 2.2 Anonymous Users SHALL NOT Be Enabled to Start Meetings
+## Starting Meetings
 
 This setting controls which meeting participants can start a meeting. In
 this instance, the term “anonymous users” refers to any Teams users
 joining calls that are not authenticated through the agency’s tenant.
 
-### 2.2.1 Policy
+### Policy
 
-- Anonymous users SHALL NOT be enabled to start meetings in the Global
-(Org-wide default) meeting policy or in custom meeting policies if any
-exist.
+#### MS-TMS-002-001: Anonymous users SHALL NOT be enabled to start meetings in the Global (Org-wide default) meeting policy or in custom meeting policies if any exist.
+TODO add rationale.
 
-### 2.2.2 Resources
-
+### Resources
 - [Meeting policy settings - Participants & guests \| Microsoft
 Docs](https://docs.microsoft.com/en-us/microsoftteams/meeting-policies-participants-and-guests)
 
-### 2.2.3 License Requirements
-
+### License Requirements
 - N/A
 
-### 2.2.4 Implementation
-
+### Implementation
 To configure settings for anonymous users:
 
 1.  Sign in to the [**Microsoft Teams admin
@@ -143,37 +136,36 @@ To configure settings for anonymous users:
 5.  If custom policies have been created, repeat these steps for each
     policy, selecting the appropriate policy in step 3.
 
-## 2.3 Automatic Admittance to Meetings SHOULD Be Restricted
+## Automatic Admittance
 
 This setting controls which meeting participants wait in the lobby
 before they are admitted to the meeting.
 
-### 2.3.1 Policy
+### Policy
 
-- Anonymous users, including dial-in users, SHOULD NOT be admitted
-  automatically.
+#### MS-TMS-003-001: Anonymous users, including dial-in users, SHOULD NOT be admitted automatically.
+TODO add rationale.
 
-- Internal users SHOULD be admitted automatically.
+#### MS-TMS-004-001: Internal users SHOULD be admitted automatically.
+TODO add rationale.
 
-- B2B guest users MAY be admitted automatically.
+#### MS-TMS-005-001: B2B guest users MAY be admitted automatically.
+TODO add rationale.
 
-- The above settings SHOULD be set in the Global (Org-wide default)
-  meeting policy.
+#### MS-TMS-006-001: The above settings SHOULD be set in the Global (Org-wide default) meeting policy.
+TODO add rationale.
 
-- Custom meeting policies MAY be created that allow more flexibility for
-  specific users.
+#### MS-TMS-007-001: Custom meeting policies MAY be created that allow more flexibility for specific users.
+TODO add rationale.
 
-### 2.3.2 Resources
-
+### Resources
 - [Meeting policy settings - Participants & guests \| Microsoft
   Docs](https://docs.microsoft.com/en-us/microsoftteams/meeting-policies-participants-and-guests)
 
-### 2.3.3 License Requirements
-
+### License Requirements
 - N/A
 
-### 2.3.4 Implementation
-
+### Implementation
 To configure settings for automatic meeting admittance:
 
 1.  Sign in to the [**Microsoft Teams admin
