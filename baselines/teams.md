@@ -66,14 +66,17 @@ guest users, unmanaged users and anonymous users.
 
 ### Policy
 
-#### MS-TMS-001-001: External participants SHOULD NOT be enabled to request control of shared desktops or windows in the Global (Org-wide default) meeting policy or in custom meeting policies if any exist.
-While there is some inherent risk in granting an external participant
+#### MS-TMS-001-001
+External participants SHOULD NOT be enabled to request control of shared desktops or windows in the Global (Org-wide default) meeting policy or in custom meeting policies if any exist
+
+- _Rationale:_ While there is some inherent risk in granting an external participant
 control of a shared screen, legitimate use cases for this exist.
 Furthermore, the risk is minimal as users cannot gain control of another
 user’s screen unless the user giving control explicitly accepts a
 control request. As such, while enabling external participants to
 request control is discouraged, it may be done, depending on agency
 need.
+- _Last modified:_ February 2023
 
 ### Resources
 
@@ -110,8 +113,10 @@ joining calls that are not authenticated through the agency’s tenant.
 
 ### Policy
 
-#### MS-TMS-002-001: Anonymous users SHALL NOT be enabled to start meetings in the Global (Org-wide default) meeting policy or in custom meeting policies if any exist.
-TODO add rationale.
+#### MS-TMS-002-001
+Anonymous users SHALL NOT be enabled to start meetings in the Global (Org-wide default) meeting policy or in custom meeting policies if any exist
+- _Rationale:_ TODO add rationale.
+- _Last modified:_ February 2023
 
 ### Resources
 - [Meeting policy settings - Participants & guests \| Microsoft
@@ -137,26 +142,35 @@ To configure settings for anonymous users:
     policy, selecting the appropriate policy in step 3.
 
 ## Automatic Admittance
-
 This setting controls which meeting participants wait in the lobby
 before they are admitted to the meeting.
 
 ### Policy
 
-#### MS-TMS-003-001: Anonymous users, including dial-in users, SHOULD NOT be admitted automatically.
-TODO add rationale.
+#### MS-TMS-003-001
+Anonymous users, including dial-in users, SHOULD NOT be admitted automatically.
+- _Rationale:_ TODO add rationale.
+- _Last modified:_ February 2023
 
-#### MS-TMS-004-001: Internal users SHOULD be admitted automatically.
-TODO add rationale.
+#### MS-TMS-004-001
+Internal users SHOULD be admitted automatically.
+- _Rationale:_ TODO add rationale.
+- _Last modified:_ February 2023
 
-#### MS-TMS-005-001: B2B guest users MAY be admitted automatically.
-TODO add rationale.
+#### MS-TMS-005-001
+B2B guest users MAY be admitted automatically.
+- _Rationale:_ TODO add rationale.
+- _Last modified:_ February 2023
 
-#### MS-TMS-006-001: The above settings SHOULD be set in the Global (Org-wide default) meeting policy.
-TODO add rationale.
+#### MS-TMS-006-001
+The above settings SHOULD be set in the Global (Org-wide default) meeting policy.
+- _Rationale:_ TODO add rationale.
+- _Last modified:_ February 2023
 
-#### MS-TMS-007-001: Custom meeting policies MAY be created that allow more flexibility for specific users.
-TODO add rationale.
+#### MS-TMS-007-001
+Custom meeting policies MAY be created that allow more flexibility for specific users.
+- _Rationale:_ TODO add rationale.
+- _Last modified:_ February 2023
 
 ### Resources
 - [Meeting policy settings - Participants & guests \| Microsoft
