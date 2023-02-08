@@ -391,7 +391,7 @@ To ensure that teams email integration is disabled:
 3.  Under the **Email integration** section, set **Allow users to send
     emails to a channel email address** to **Off**.
 
-## 8. Apps
+## 8. App Management
 
 Teams is capable of integrating with the following classes of apps:
 
