@@ -78,6 +78,16 @@ document. The United States government has adapted selections of these
 documents to develop innovative and scalable configuration standards to
 strengthen the security of widely used cloud-based software services.
 
+## Shanti Group Suggestions:
+1. Legacy Authentication
+2. High Risk Users and Sign-Ins
+3. Multi-Factor Authentication
+4. Azure AD Logs
+5. Third-Party Apps
+6. Session Management
+7. Privileged Access
+8. Device Access
+
 # 2. Baseline
 
 ## 2.1 Legacy Authentication SHALL Be Blocked
