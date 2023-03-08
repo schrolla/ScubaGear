@@ -57,7 +57,7 @@ strengthen the security of widely used cloud-based software services.
 
 # Baseline
 
-## 1. Requesting Control of Shared Desktops
+## 1. Requesting Control of Shared Desktops or Windows
 
 This setting controls whether external meeting participants can request
 control of the shared desktop or window during the meeting. In this
@@ -105,7 +105,7 @@ control of the shared desktop or window in the meeting:
 5.  If custom policies have been created, repeat these steps for each
     policy, selecting the appropriate policy in step 3.
 
-## 2. Starting Meetings
+## 2. Starting Teams Meetings
 
 This setting controls which meeting participants can start a meeting. In
 this instance, the term “anonymous users” refers to any Teams users
@@ -141,7 +141,7 @@ To configure settings for anonymous users:
 5.  If custom policies have been created, repeat these steps for each
     policy, selecting the appropriate policy in step 3.
 
-## 3. Automatic Admittance
+## 3. Automatic Admittance into meetings
 This setting controls which meeting participants wait in the lobby
 before they are admitted to the meeting.
 
