@@ -480,8 +480,7 @@ Cloud video recording SHOULD be disabled in the global (org-wide default) meetin
 - _Last modified:_ July 2023
 
 #### MS.TEAMS.9.3v1
-For all meeting polices that allow cloud recording, recordings SHOULD be
-stored inside the country of that agency’s tenant.
+For all meeting polices that allow cloud recording, recordings SHOULD be stored inside the country of that agency’s tenant.
 - _Rationale:_ TODO
 - _Last modified:_ July 2023
 
@@ -639,8 +638,7 @@ Attachments included with Teams messages SHOULD be scanned for malware.
 - _Last modified:_ July 2023
 
 #### MS.TEAMS.12.2v1
-Users SHOULD be prevented from opening or downloading files detected as
-malware.
+Users SHOULD be prevented from opening or downloading files detected as malware.
 - _Rationale:_ TODO
 - _Last modified:_ July 2023
 
