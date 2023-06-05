@@ -316,13 +316,13 @@ organization](https://docs.microsoft.com/en-us/microsoftteams/manage-external-ac
 
 ## 6. Skype Users
 Microsoft is officially retiring Skype for Business Online and wants to ensure customers have the required information and resources to plan and execute a successful upgrade to Teams. Below are the decommissioning dates by product:
-Skype for Business Online: Jul 31, 2021
-Skype for Business 2015: Apr 11, 2023
-Skype for Business 2016: Oct 14, 2025
-Skype for Business 2019: Oct 14, 2025
-Skype for Business Server 2015: Oct 14, 2025
-Skype for Business Server 2019: Oct 14, 2025
-Skype for Business LTSC 2021: Oct 13, 2026
+- Skype for Business Online: Jul 31, 2021
+- Skype for Business 2015: Apr 11, 2023
+- Skype for Business 2016: Oct 14, 2025
+- Skype for Business 2019: Oct 14, 2025
+- Skype for Business Server 2015: Oct 14, 2025
+- Skype for Business Server 2019: Oct 14, 2025
+- Skype for Business LTSC 2021: Oct 13, 2026
 
 ### Policies
 
