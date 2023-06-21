@@ -10,7 +10,7 @@ The **License Requirements** sections of this document assume the organization i
 # Baseline Policies
 ## 1. Policy Group 1
 This section helps reduce security risks related to [Policy Group]. This includes [Scope of policies ] (This sentence is as needed). 
-Example: This section helps reduce security risks related to the sharing of files with users external to the agency. This includes guest users, users who use a verification code and users who access an Anyone link.
+- Example: "This section helps reduce security risks related to the sharing of files with users external to the agency. This includes guest users, users who use a verification code and users who access an Anyone link."
 
 ### Policies
 
@@ -19,7 +19,7 @@ POLICY 1
 - _Rationale:_
   - 1st sentence: Security risk if policy is not implemented. "The security risk of [context of policy]"
   - 2nd sentence: How this policy minimizes this risk. By [Verb] the risk of [Vulnerability] is minimized."
-  - Example: The security risk with Microsoft Team's email integration is due to the fact that Teams channel's email addresses are not under the tenant’s domain, rather they are associated with the Microsoft-owned domain of "teams.ms". By disabling Teams email integration the risk of use of emails outside of the agency's security settings control is minimized.
+  - Example: "The security risk with Microsoft Team's email integration is due to the fact that Teams channel's email addresses are not under the tenant’s domain, rather they are associated with the Microsoft-owned domain of "teams.ms". By disabling Teams email integration the risk of use of emails outside of the agency's security settings control is minimized."
 - _Last modified:_ July 2023
 - _Note:_ [As needed to note dependancies or "MAY" statements for more flexibility]
   - Example: "This policy is only applicable if the external sharing slider on the admin page is set to any value other than Only People in your Organization."
