@@ -1,4 +1,6 @@
 # CISA M365 Security Configuration Baseline for [M365 Product]
+The Secure Cloud Business Applications (SCuBA) project provides guidance and capabilities to secure agencies’ cloud business application environments and protect federal information that is created, accessed, shared, and stored in those environments. The SCuBA Secure Configuration Baselines (SCB) for Microsoft 365 (M365) will help secure federal civilian executive branch (FCEB) information assets stored within M365 cloud environments through consistent, effective, modern, and manageable security configurations.
+
 Description of the M365 product (formally the introduction section)
 
 ## License Compliance and Copyright 
@@ -7,6 +9,31 @@ Portions of this document are adapted from documents in Microsoft’s [Microsoft
 ## Assumptions
 The **License Requirements** sections of this document assume the organization is using an [M365 E3](https://www.microsoft.com/en-us/microsoft-365/compare-microsoft-365-enterprise-plans) or [G3](https://www.microsoft.com/en-us/microsoft-365/government) license level. Therefore, only licenses not included in E3/G3 are listed.
 
+## Key Terminology (if applicable) 
+Access to Teams can be controlled by the user type. In this baseline,
+the types of users are defined as follows (Note: these terms vary in use
+across Microsoft documentation):
+
+1.  **Internal users**: members of the agency’s M365 tenant.
+
+2.  **External users**: members of a different M365 tenant.
+
+3.  **Business to Business** (B2B) guest users: external users that are
+    formally invited to collaborate with the team and added to the
+    agency’s Azure Active Directory (AAD) as guest users. These users
+    authenticate with their home organization/tenant and are granted
+    access to the team by virtue of being listed as guest users on the
+    tenant’s AAD.
+
+4.  **Unmanaged users**: users who are not members of any M365 tenant or
+    organization (e.g., personal Microsoft accounts).
+
+5.  **Anonymous users**: Teams users joining calls that are not
+    authenticated through the agency’s tenant, including unmanaged
+    users, external users (except for B2B guests), and true anonymous
+    users, meaning users that are not logged in to any Microsoft or
+    organization account, such as dial-in users.[^1]
+    
 # Baseline Policies
 ## 1. Policy Group 1
 This section helps reduce security risks related to [Policy Group]. This includes [Scope of policies ] (This sentence is as needed). 
@@ -42,13 +69,13 @@ POLICY 2
 
 ### Implementation
 
-#### MS.M365PRODUCT.1.1v1, instructions:
+#### MS.M365PRODUCT.1.1v1 instructions:
 1.  For sequential steps utilize “\>”
     - Example: **Policies** \> **Sharing**)
 2.  Bold all-important buttonology
     - Example **Policies**, **Sharing**, **More external sharing settings**)
 
-#### MS.M365PRODUCT.1.2v1, instructions:
+#### MS.M365PRODUCT.1.2v1 instructions:
 1.  For sequential steps utilize “\>”
     - Example: **Policies** \> **Sharing**)
 2.  Bold all-important buttonology
@@ -84,13 +111,13 @@ Policy 2
 
 ### Implementation
 
-#### MS.M365PRODUCT.2.1v1, instructions:
+#### MS.M365PRODUCT.2.1v1 instructions:
 1.  For sequential steps utilize “\>”
     - Example: **Policies** \> **Sharing**)
 2.  Bold all-important buttonology
     - Example **Policies**, **Sharing**, **More external sharing settings**)
 
-#### MS.M365PRODUCT.2.2v1, instructions:
+#### MS.M365PRODUCT.2.2v1 instructions:
 1.  For sequential steps utilize “\>”
     - Example: **Policies** \> **Sharing**)
 2.  Bold all-important buttonology
