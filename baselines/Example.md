@@ -10,6 +10,8 @@ Portions of this document are adapted from documents in Microsoft’s [Microsoft
 The **License Requirements** sections of this document assume the organization is using an [M365 E3](https://www.microsoft.com/en-us/microsoft-365/compare-microsoft-365-enterprise-plans) or [G3](https://www.microsoft.com/en-us/microsoft-365/government) license level. Therefore, only licenses not included in E3/G3 are listed.
 
 ## Key Terminology (if applicable) 
+
+Example:
 Access to Teams can be controlled by the user type. In this baseline,
 the types of users are defined as follows (Note: these terms vary in use
 across Microsoft documentation):
