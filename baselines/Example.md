@@ -42,7 +42,7 @@ This section helps reduce security risks related to [Policy Group]. This include
 ### Policies
 
 #### MS.M365PRODUCT.1.1v1
-POLICY 1
+POLICY 1.
 - _Rationale:_
   - 1st sentence: Security risk if policy is not implemented. "The security risk of [context of policy]"
   - 2nd sentence: How this policy minimizes this risk. By [Verb] the risk of [Vulnerability] is minimized."
@@ -52,7 +52,7 @@ POLICY 1
   - Example: "This policy is only applicable if the external sharing slider on the admin page is set to any value other than Only People in your Organization."
 
 #### MS.M365PRODUCT.1.2v1
-POLICY 2
+POLICY 2.
 - _Rationale:_
   - 1st sentence: Security risk if policy is not implemented. "The security risk of [context of policy]"
   - 2nd sentence: How this policy minimizes this risk. By [Verb] the risk of [Vulnerability] is minimized."
@@ -88,14 +88,14 @@ This section helps reduce security risks related to [Policy Group]. This include
 ### Policies
 
 #### MS.M365Product.2.1v1
-POLICY 1
+POLICY 1.
 - _Rationale:_
   - 1st sentence: Security risk if policy is not implemented. "The security risk of [context of policy]"
   - 2nd sentence: How this policy minimizes this risk. By [Verb] the risk of [Vulnerability] is minimized."
 - _Last modified:_ July 2023
 
-#### MS.SHAREPOINT-ONEDRIVE.2.2v1
-Policy 2
+#### MS.M365PRODUCT.2.2v1
+Policy 2.
 - _Rationale:_
   - 1st sentence: Security risk if policy is not implemented. "The security risk of [context of policy]"
   - 2nd sentence: How this policy minimizes this risk. By [Verb] the risk of [Vulnerability] is minimized."
