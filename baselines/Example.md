@@ -1,17 +1,29 @@
 # CISA M365 Security Configuration Baseline for [M365 Product]
-The Secure Cloud Business Applications (SCuBA) project provides guidance and capabilities to secure agencies’ cloud business application environments and protect federal information that is created, accessed, shared, and stored in those environments. The SCuBA Secure Configuration Baselines (SCB) for Microsoft 365 (M365) will help secure federal civilian executive branch (FCEB) information assets stored within M365 cloud environments through consistent, effective, modern, and manageable security configurations.
 
-Description of the M365 product (formally the introduction section)
+[M365 Product] is a cloud-based [M365 Product description]. This Secure Configuration Baseline (SCB) provides specific policies to strengthen [M365 Product] security.
+
+**Example:**
+Azure Active Directory (AAD) is a cloud-based identity and access control service that provides security and functional capabilities to Microsoft 365 (M365). This Secure Configuration Baseline (SCB) provides specific policies to strengthen AAD security.
+
+The Secure Cloud Business Applications (SCuBA) project run by the Cybersecurity and Infrastructure Security Agency (CISA) provides guidance and capabilities to secure federal civilian executive branch (FCEB) agencies’ cloud business application environments and protect federal information that is created, accessed, shared, and stored in those environments. 
+
+The CISA SCuBA SCBs for M365 help secure federal information assets stored within M365 cloud business application environments through consistent, effective, and manageable security configurations. CISA created baselines tailored to the federal government’s threats and risk tolerance with the knowledge that every organization has different threat models and risk tolerance. Non-governmental organizations may also find value in applying these baselines to reduce risks.
+
+The information in this document is being provided “as is” for INFORMATIONAL PURPOSES ONLY. CISA does not endorse any commercial product or service, including any subjects of analysis. Any reference to specific commercial entities or commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoritism by CISA.
+
 
 ## License Compliance and Copyright 
 Portions of this document are adapted from documents in Microsoft’s [Microsoft 365](https://github.com/MicrosoftDocs/microsoft-365-docs/blob/public/LICENSE) and [Azure](https://github.com/MicrosoftDocs/azure-docs/blob/main/LICENSE) GitHub repositories. The respective documents are subject to copyright and are adapted under the terms of the Creative Commons Attribution 4.0 International license. Source documents are linked throughout this document. The United States Government has adapted selections of these documents to develop innovative and scalable configuration standards to strengthen the security of widely used cloud-based software services.
 
 ## Assumptions
-The **License Requirements** sections of this document assume the organization is using an [M365 E3](https://www.microsoft.com/en-us/microsoft-365/compare-microsoft-365-enterprise-plans) or [G3](https://www.microsoft.com/en-us/microsoft-365/government) license level. Therefore, only licenses not included in E3/G3 are listed.
+The **License Requirements** sections of this document assume the organization is using an [M365 E3](https://www.microsoft.com/en-us/microsoft-365/compare-microsoft-365-enterprise-plans) or [G3](https://www.microsoft.com/en-us/microsoft-365/government) license level at a minimum. Therefore, only licenses not included in E3/G3 are listed.
 
 ## Key Terminology (if applicable) 
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119)
 
-Example:
+*Any additional content in this section is only needed if a specific product baseline uses terms that are ambiguous or highly technical, that would benefit from explicit definition within the context of the document. Additional terms in this section should be added sparingly. 
+
+**Example:**
 Access to Teams can be controlled by the user type. In this baseline,
 the types of users are defined as follows (Note: these terms vary in use
 across Microsoft documentation):
@@ -39,7 +51,7 @@ across Microsoft documentation):
 # Baseline Policies
 ## 1. Policy Group 1
 This section helps reduce security risks related to [Policy Group]. This includes [Scope of policies ] (This sentence is as needed). 
-- Example: "This section helps reduce security risks related to the sharing of files with users external to the agency. This includes guest users, users who use a verification code and users who access an Anyone link."
+- **Example:** "This section helps reduce security risks related to the sharing of files with users external to the agency. This includes guest users, users who use a verification code and users who access an Anyone link."
 
 ### Policies
 
@@ -48,10 +60,10 @@ POLICY 1.
 - _Rationale:_
   - 1st sentence: Security risk if policy is not implemented. "The security risk of [context of policy]"
   - 2nd sentence: How this policy minimizes this risk. By [Verb] the risk of [Vulnerability] is minimized."
-  - Example: "The security risk with Microsoft Team's email integration is due to the fact that Teams channel's email addresses are not under the tenant’s domain, rather they are associated with the Microsoft-owned domain of "teams.ms". By disabling Teams email integration the risk of use of emails outside of the agency's security settings control is minimized."
+  - **Example:** "The security risk with Microsoft Team's email integration is due to the fact that Teams channel's email addresses are not under the tenant’s domain, rather they are associated with the Microsoft-owned domain of "teams.ms". By disabling Teams email integration an agency will not utilize an email outside of its tenant's domain. "
 - _Last modified:_ July 2023
 - _Note:_ [As needed to note dependancies or "MAY" statements for more flexibility]
-  - Example: "This policy is only applicable if the external sharing slider on the admin page is set to any value other than Only People in your Organization."
+  - **Example:** "This policy is only applicable if the external sharing slider on the admin page is set to any value other than Only People in your Organization."
 
 #### MS.M365PRODUCT.1.2v1
 POLICY 2.
@@ -73,15 +85,15 @@ POLICY 2.
 
 #### MS.M365PRODUCT.1.1v1 instructions:
 1.  For sequential steps utilize “\>”
-    - Example: **Policies** \> **Sharing**)
+    - **Example:** **Policies** \> **Sharing**)
 2.  Bold all-important buttonology
-    - Example **Policies**, **Sharing**, **More external sharing settings**)
+    - **Example:** **Policies**, **Sharing**, **More external sharing settings**)
 
 #### MS.M365PRODUCT.1.2v1 instructions:
 1.  For sequential steps utilize “\>”
-    - Example: **Policies** \> **Sharing**)
+    - **Example:** **Policies** \> **Sharing**)
 2.  Bold all-important buttonology
-    - Example **Policies**, **Sharing**, **More external sharing settings**)
+    - **Example:** **Policies**, **Sharing**, **More external sharing settings**)
 
 ## 2. Policy Group 2
 
@@ -115,15 +127,15 @@ Policy 2.
 
 #### MS.M365PRODUCT.2.1v1 instructions:
 1.  For sequential steps utilize “\>”
-    - Example: **Policies** \> **Sharing**)
+    - **Example:** **Policies** \> **Sharing**)
 2.  Bold all-important buttonology
-    - Example **Policies**, **Sharing**, **More external sharing settings**)
+    - **Example:** **Policies**, **Sharing**, **More external sharing settings**)
 
 #### MS.M365PRODUCT.2.2v1 instructions:
 1.  For sequential steps utilize “\>”
-    - Example: **Policies** \> **Sharing**)
+    - **Example:** **Policies** \> **Sharing**)
 2.  Bold all-important buttonology
-    - Example **Policies**, **Sharing**, **More external sharing settings**)
+    - **Example:** **Policies**, **Sharing**, **More external sharing settings**)
 
 # Acknowledgements
 
@@ -136,43 +148,26 @@ response to Section 3 of [Executive Order (EO) 14028, *Improving the
 Nation’s
 Cybersecurity*](https://www.federalregister.gov/documents/2021/05/17/2021-10460/improving-the-nations-cybersecurity):
 
-- Consumer Financial Protection Bureau (CFPB)
+-	The MITRE Corporation
+-	Sandia National Laboratories (Sandia)
 
-- Department of the Interior (DOI)
+The SCBs were informed by materials produced by the following organizations: 
 
-- National Aeronautics and Space Administration (NASA)
 
-- Sandia National Laboratories (Sandia)
+- Center for Internet Security (CIS)
+- Internet Engineering Task Force (IETF)
+- Mandiant
+- Microsoft
+- U.S. Defense Information Systems Agency (DISA)
+- U.S. National Institute of Standards (NIST)
+- U.S. Office of Management and Budget (OMB)
 
-- U.S. Census Bureau (USCB)
+The cross-agency collaboration and partnerships developed during this initiative serve as an example for solving complex problems faced by the federal government. CISA also thanks the Cybersecurity Innovation Tiger Team (CITT) for its leadership and the following federal agencies that provided input during the development of the baselines:
 
-- U.S. Geological Survey (USGS)
-
-- U.S. Office of Personnel Management (OPM)
-
-- U.S. Small Business Administration (SBA)
-
-The cross-agency collaboration and partnerships developed during this
-initiative serve as an example for solving complex problems faced by the
-federal government.
-
-**Cybersecurity Innovation Tiger Team (CITT) Leadership**
-
-Beau Houser (USCB), Sanjay Gupta (SBA), Michael Witt (NASA), James
-Saunders (OPM), Han Lin (Sandia), Andrew Havely (DOI).
-
-**CITT Authors**
-
-Trafenia Salzman (SBA), Benjamin McChesney (OPM), Robert Collier (USCB),
-Matthew Snitchler (Sandia), Darryl Purdy (USCB), Brandon Frankens
-(NASA), Brandon Goss (NASA), Nicole Bogeajis (DOI/USGS), Kevin Kelly
-(DOI), Adnan Ehsan (CFPB), Michael Griffin (CFPB), Vincent Urias
-(Sandia), Angela Calabaza (Sandia).
-
-**CITT Contributors**
-
-Dr. Mukesh Rohatgi (MITRE), Lee Szilagyi (MITRE), Nanda Katikaneni
-(MITRE), Ted Kolovos (MITRE), Thomas Comeau (MITRE), Karen Caraway
-(MITRE), Jackie Whieldon (MITRE), Jeanne Firey (MITRE), Kenneth Myers
-(General Services Administration).
-
+-	Consumer Financial Protection Bureau (CFPB)
+-	Department of the Interior (DOI)
+-	National Aeronautics and Space Administration (NASA)
+-	U.S. Office of Personnel Management (OPM)
+-	U.S. Small Business Administration (SBA)
+-	U.S. Census Bureau (USCB)
+-	U.S. Geological Survey (USGS)
