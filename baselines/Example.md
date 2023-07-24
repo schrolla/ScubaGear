@@ -140,7 +140,7 @@ Policy 2.
 
 ## 3. [Shared policy group between Defender, EXO and Teams]
 
-Any product that meets the requirements outlined in this baselinepolicy group may be used. If the agency is using Microsoft Defender to implement malware scanning, see the following policies of the [Defender for Office 365 Minimum Viable Secure Configuration Baseline](./defender.md) for additional guidance.
+Any product that meets the requirements outlined in this baseline policy group may be used. If the agency is using Microsoft Defender to implement [Shared policy group between Defender, EXO and Teams], see the following policies of the [Defender for Office 365 Minimum Viable Secure Configuration Baseline](./defender.md) for additional guidance.
 
 - [MS.DEFENDER.X.Xv1](./defender.md#msdefenderXXVX) <- update link to appropriate defender policy.
   - [Defender Policy] 
