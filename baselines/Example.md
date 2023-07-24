@@ -137,6 +137,57 @@ Policy 2.
 2.  Bold all-important buttonology
     - **Example:** **Policies**, **Sharing**, **More external sharing settings**)
 
+
+## 3. [Shared policy group between Defender, EXO and Teams]
+
+Any product that meets the requirements outlined in this baselinepolicy group may be used. If the agency is using Microsoft Defender to implement malware scanning, see the following policies of the [Defender for Office 365 Minimum Viable Secure Configuration Baseline](./defender.md) for additional guidance.
+
+- [MS.DEFENDER.X.Xv1](./defender.md#msdefenderXXVX) <- update link to appropriate defender policy.
+  - [Defender Policy] 
+
+- [MS.DEFENDER.X.Xv1](./defender.md#msdefenderXXvX) <- update link to appropriate defender policy.
+  - [Defender Policy] 
+
+**Example:**
+- [MS.DEFENDER.1.2v1](./defender.md#msdefender12v1)
+  - All users SHALL be added to Exchange Online Protection in either the standard or strict preset security policy.
+
+- [MS.DEFENDER.1.3v1](./defender.md#msdefender13v1)
+  - All users SHALL be added to Defender for Office 365 Protection in either the standard or strict preset security policy.
+
+### Policies
+
+#### MS.[TEAMSOREXO].3.1v1
+POLICY 1.
+
+- _Rationale:_
+  - 1st sentence: Security risk if policy is not implemented. "The security risk of [context of policy]"
+  - 2nd sentence: How this policy minimizes this risk. By [Verb] the risk of [Vulnerability] is minimized."
+- _Last modified:_ July 2023
+
+#### MS.[TEAMSOREXO].3.2v1
+POLICY 2.
+
+- _Rationale:_
+  - 1st sentence: Security risk if policy is not implemented. "The security risk of [context of policy]"
+  - 2nd sentence: How this policy minimizes this risk. By [Verb] the risk of [Vulnerability] is minimized."
+- _Last modified:_ July 2023
+
+
+### Resources
+
+- [Title of article \|Publisher](Link)
+
+### Implementation
+
+#### MS.[TEAMSOREXO].3.1v1 instructions:
+Any product that meets the requirements outlined in this baseline policy may be used. If the agency is using Microsoft Defender, see the following implmentation steps for [MS.DEFENDER.X.Xv1](./defender.md#implementation) for additional guidance.
+< Ensure link to appropriate defender implmentation section.
+
+#### MS.[TEAMSOREXO].3.2v1 instructions:
+Any product that meets the requirements outlined in this baseline policy may be used. If the agency is using Microsoft Defender, see the following implmentation steps for [MS.DEFENDER.X.Xv1](./defender.md#implementation) for additional guidance.
+< Ensure link to appropriate defender implmentation section.
+
 # Acknowledgements
 
 In addition to acknowledging the important contributions of a diverse
