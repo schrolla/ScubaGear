@@ -62,7 +62,7 @@ POLICY 1.
   - 2nd sentence: How this policy minimizes this risk. By [Verb] the risk of [Vulnerability] is minimized."
   - **Example:** "The security risk with Microsoft Team's email integration is due to the fact that Teams channel's email addresses are not under the tenant’s domain, rather they are associated with the Microsoft-owned domain of "teams.ms". By disabling Teams email integration an agency will not utilize an email outside of its tenant's domain. "
 - _Last modified:_ July 2023
-- _Note:_ [As needed to note dependancies or "MAY" statements for more flexibility]
+- _Note:_ [As needed to note dependencies or "MAY" statements for more flexibility]
   - **Example:** "This policy is only applicable if the external sharing slider on the admin page is set to any value other than Only People in your Organization."
 
 #### MS.M365PRODUCT.1.2v1
@@ -181,12 +181,12 @@ POLICY 2.
 ### Implementation
 
 #### MS.[TEAMSOREXO].3.1v1 instructions:
-Any product that meets the requirements outlined in this baseline policy may be used. If the agency is using Microsoft Defender, see the following implmentation steps for [MS.DEFENDER.X.Xv1](./defender.md#implementation) for additional guidance.
-< Ensure link to appropriate defender implmentation section.
+Any product that meets the requirements outlined in this baseline policy may be used. If the agency is using Microsoft Defender, see the following implementation steps for [MS.DEFENDER.X.Xv1](./defender.md#implementation) for additional guidance.
+< Ensure link to appropriate defender implementation section.
 
 #### MS.[TEAMSOREXO].3.2v1 instructions:
-Any product that meets the requirements outlined in this baseline policy may be used. If the agency is using Microsoft Defender, see the following implmentation steps for [MS.DEFENDER.X.Xv1](./defender.md#implementation) for additional guidance.
-< Ensure link to appropriate defender implmentation section.
+Any product that meets the requirements outlined in this baseline policy may be used. If the agency is using Microsoft Defender, see the following implementation steps for [MS.DEFENDER.X.Xv1](./defender.md#implementation) for additional guidance.
+< Ensure link to appropriate defender implementation section.
 
 # Acknowledgements
 
