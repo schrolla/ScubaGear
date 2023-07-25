@@ -138,7 +138,7 @@ Policy 2.
     - **Example:** **Policies**, **Sharing**, **More external sharing settings**)
 
 
-## 3. [Shared policy group between Defender, EXO and Teams]
+## 3. [Shared policy group name between Defender, EXO and Teams]
 
 Any product that meets the requirements outlined in this baseline policy group may be used. If the agency is using Microsoft Defender to implement [Shared policy group between Defender, EXO and Teams], see the following policies of the [Defender for Office 365 Minimum Viable Secure Configuration Baseline](./defender.md) for additional guidance.
 
@@ -180,13 +180,10 @@ POLICY 2.
 
 ### Implementation
 
-#### MS.[TEAMSOREXO].3.1v1 instructions:
-Any product that meets the requirements outlined in this baseline policy may be used. If the agency is using Microsoft Defender, see the following implementation steps for [MS.DEFENDER.X.Xv1](./defender.md#implementation) for additional guidance.
+#### MS.[TEAMSOREXO].3.1v1 - MS.[TEAMSOREXO].3.2v1 instructions:
+Any product that meets the requirements outlined in this baseline policy may be used. If the agency is using Microsoft Defender, see the following implementation steps for [Shared policy group name between Defender, EXO and Teams](./defender.md#implementation) for additional guidance.
 < Ensure link to appropriate defender implementation section.
 
-#### MS.[TEAMSOREXO].3.2v1 instructions:
-Any product that meets the requirements outlined in this baseline policy may be used. If the agency is using Microsoft Defender, see the following implementation steps for [MS.DEFENDER.X.Xv1](./defender.md#implementation) for additional guidance.
-< Ensure link to appropriate defender implementation section.
 
 # Acknowledgements
 
