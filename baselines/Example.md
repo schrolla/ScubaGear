@@ -186,7 +186,7 @@ Any product that meets the requirements outlined in this baseline policy may be 
 
 **Example:**
 #### MS.TEAMS.3.1v1 - MS.TEAMS.3.2v1 instructions:
-Any product that meets the requirements outlined in this baseline policy may be used. If the agency is using Microsoft Defender, see the following implementation steps for [DLP](./defender.md#implementation) for additional guidance.
+Any product that meets the requirements outlined in this baseline policy may be used. If the agency is using Microsoft Defender, see the following implementation steps for [DLP](./defender.md#implementation-3) for additional guidance.
 
 # Acknowledgements
 
