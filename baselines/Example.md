@@ -57,6 +57,8 @@ This section helps reduce security risks related to [Policy Group]. This include
 
 #### MS.M365PRODUCT.1.1v1
 POLICY 1.
+
+<!--Policy: MS.M365PRODUCT.1.1.v1; Criticality: [Criticality(SHALL,SHOULD,ETC)] -->
 - _Rationale:_
   - 1st sentence: Security risk if policy is not implemented. "The security risk of [context of policy]"
   - 2nd sentence: How this policy minimizes this risk. By [Verb] the risk of [Vulnerability] is minimized."
@@ -67,6 +69,8 @@ POLICY 1.
 
 #### MS.M365PRODUCT.1.2v1
 POLICY 2.
+
+<!--Policy: MS.M365PRODUCT.1.2.v1; Criticality: [Criticality(SHALL,SHOULD,ETC)] -->
 - _Rationale:_
   - 1st sentence: Security risk if policy is not implemented. "The security risk of [context of policy]"
   - 2nd sentence: How this policy minimizes this risk. By [Verb] the risk of [Vulnerability] is minimized."
@@ -103,6 +107,8 @@ This section helps reduce security risks related to [Policy Group]. This include
 
 #### MS.M365Product.2.1v1
 POLICY 1.
+
+<!--Policy: MS.M365PRODUCT.2.1.v1; Criticality: [Criticality(SHALL,SHOULD,ETC)] -->
 - _Rationale:_
   - 1st sentence: Security risk if policy is not implemented. "The security risk of [context of policy]"
   - 2nd sentence: How this policy minimizes this risk. By [Verb] the risk of [Vulnerability] is minimized."
@@ -110,6 +116,8 @@ POLICY 1.
 
 #### MS.M365PRODUCT.2.2v1
 Policy 2.
+
+<!--Policy: MS.M365PRODUCT.2.2.v1; Criticality: [Criticality(SHALL,SHOULD,ETC)] -->
 - _Rationale:_
   - 1st sentence: Security risk if policy is not implemented. "The security risk of [context of policy]"
   - 2nd sentence: How this policy minimizes this risk. By [Verb] the risk of [Vulnerability] is minimized."
@@ -160,6 +168,7 @@ Any product that meets the requirements outlined in this baseline policy group m
 #### MS.[TEAMSOREXO].3.1v1
 POLICY 1.
 
+<!--Policy: MS.M365PRODUCT.3.1.v1; Criticality: [Criticality(SHALL,SHOULD,ETC)] -->
 - _Rationale:_
   - 1st sentence: Security risk if policy is not implemented. "The security risk of [context of policy]"
   - 2nd sentence: How this policy minimizes this risk. By [Verb] the risk of [Vulnerability] is minimized."
@@ -168,6 +177,7 @@ POLICY 1.
 #### MS.[TEAMSOREXO].3.2v1
 POLICY 2.
 
+<!--Policy: MS.M365PRODUCT.3.2.v1; Criticality: [Criticality(SHALL,SHOULD,ETC)] -->
 - _Rationale:_
   - 1st sentence: Security risk if policy is not implemented. "The security risk of [context of policy]"
   - 2nd sentence: How this policy minimizes this risk. By [Verb] the risk of [Vulnerability] is minimized."
@@ -180,13 +190,17 @@ POLICY 2.
 
 ### Implementation
 
-#### MS.[TEAMSOREXO].3.1v1 - MS.[TEAMSOREXO].3.2v1 instructions:
+#### MS.[TEAMSOREXO].3.1v1 instructions:
 Any product that meets the requirements outlined in this baseline policy may be used. If the agency is using Microsoft Defender, see the following implementation steps for [Shared policy group name between Defender, EXO and Teams](./defender.md#implementation) for additional guidance.
 < Ensure link to appropriate defender implementation section.
 
 **Example:**
-#### MS.TEAMS.3.1v1 - MS.TEAMS.3.2v1 instructions:
+#### MS.TEAMS.3.1v1 instructions:
 Any product that meets the requirements outlined in this baseline policy may be used. If the agency is using Microsoft Defender, see the following implementation steps for [DLP](./defender.md#implementation-3) for additional guidance.
+
+#### MS.[TEAMSOREXO].3.2v1 instructions:
+Any product that meets the requirements outlined in this baseline policy may be used. If the agency is using Microsoft Defender, see the following implementation steps for [Shared policy group name between Defender, EXO and Teams](./defender.md#implementation) for additional guidance.
+< Ensure link to appropriate defender implementation section.
 
 # Acknowledgements
 
