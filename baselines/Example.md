@@ -50,8 +50,7 @@ across Microsoft documentation):
     
 # Baseline Policies
 ## 1. Policy Group 1
-This section helps reduce security risks related to [Policy Group]. This includes [Scope of policies ] (This sentence is as needed). 
-- **Example:** "This section helps reduce security risks related to the sharing of files with users external to the agency. This includes guest users, users who use a verification code and users who access an Anyone link."
+[Policy Group Description]
 
 ### Policies
 
@@ -100,8 +99,7 @@ POLICY 2.
     - **Example:** **Policies**, **Sharing**, **More external sharing settings**)
 
 ## 2. Policy Group 2
-
-This section helps reduce security risks related to [Policy Group]. This includes [Scope of policies ] (This sentence is as needed). 
+[Policy Group Description]
 
 ### Policies
 
@@ -147,7 +145,7 @@ Policy 2.
 
 
 ## 3. [Shared policy group name between Defender, EXO and Teams]
-
+[Policy Group Description]
 Any product that meets the requirements outlined in this baseline policy group may be used. If the agency is using Microsoft Defender to implement [Shared policy group between Defender, EXO and Teams], see the following policies of the [Defender for Office 365 Minimum Viable Secure Configuration Baseline](./defender.md) for additional guidance.
 
 - [MS.DEFENDER.X.Xv1](./defender.md#msdefenderXXVX) <- update link to appropriate defender policy.
