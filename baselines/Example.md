@@ -57,7 +57,7 @@ across Microsoft documentation):
 #### MS.M365PRODUCT.1.1v1
 POLICY 1.
 
-<!--Policy: MS.M365PRODUCT.1.1.v1; Criticality: [Criticality(SHALL,SHOULD,ETC)] -->
+<!--Policy: MS.M365PRODUCT.1.1v1; Criticality: [Criticality(SHALL,SHOULD,ETC)] -->
 - _Rationale:_
   - 1st sentence: Security risk if policy is not implemented. "The security risk of [context of policy]"
   - 2nd sentence: How this policy minimizes this risk. By [Verb] the risk of [Vulnerability] is minimized."
@@ -69,7 +69,7 @@ POLICY 1.
 #### MS.M365PRODUCT.1.2v1
 POLICY 2.
 
-<!--Policy: MS.M365PRODUCT.1.2.v1; Criticality: [Criticality(SHALL,SHOULD,ETC)] -->
+<!--Policy: MS.M365PRODUCT.1.2v1; Criticality: [Criticality(SHALL,SHOULD,ETC)] -->
 - _Rationale:_
   - 1st sentence: Security risk if policy is not implemented. "The security risk of [context of policy]"
   - 2nd sentence: How this policy minimizes this risk. By [Verb] the risk of [Vulnerability] is minimized."
@@ -106,7 +106,7 @@ POLICY 2.
 #### MS.M365Product.2.1v1
 POLICY 1.
 
-<!--Policy: MS.M365PRODUCT.2.1.v1; Criticality: [Criticality(SHALL,SHOULD,ETC)] -->
+<!--Policy: MS.M365PRODUCT.2.1v1; Criticality: [Criticality(SHALL,SHOULD,ETC)] -->
 - _Rationale:_
   - 1st sentence: Security risk if policy is not implemented. "The security risk of [context of policy]"
   - 2nd sentence: How this policy minimizes this risk. By [Verb] the risk of [Vulnerability] is minimized."
@@ -115,7 +115,7 @@ POLICY 1.
 #### MS.M365PRODUCT.2.2v1
 Policy 2.
 
-<!--Policy: MS.M365PRODUCT.2.2.v1; Criticality: [Criticality(SHALL,SHOULD,ETC)] -->
+<!--Policy: MS.M365PRODUCT.2.2v1; Criticality: [Criticality(SHALL,SHOULD,ETC)] -->
 - _Rationale:_
   - 1st sentence: Security risk if policy is not implemented. "The security risk of [context of policy]"
   - 2nd sentence: How this policy minimizes this risk. By [Verb] the risk of [Vulnerability] is minimized."
@@ -166,7 +166,7 @@ Any product that meets the requirements outlined in this baseline policy group m
 #### MS.[TEAMSOREXO].3.1v1
 POLICY 1.
 
-<!--Policy: MS.M365PRODUCT.3.1.v1; Criticality: [Criticality(SHALL,SHOULD,ETC)] -->
+<!--Policy: MS.M365PRODUCT.3.1v1; Criticality: [Criticality(SHALL,SHOULD,ETC)] -->
 - _Rationale:_
   - 1st sentence: Security risk if policy is not implemented. "The security risk of [context of policy]"
   - 2nd sentence: How this policy minimizes this risk. By [Verb] the risk of [Vulnerability] is minimized."
@@ -175,7 +175,7 @@ POLICY 1.
 #### MS.[TEAMSOREXO].3.2v1
 POLICY 2.
 
-<!--Policy: MS.M365PRODUCT.3.2.v1; Criticality: [Criticality(SHALL,SHOULD,ETC)] -->
+<!--Policy: MS.M365PRODUCT.3.2v1; Criticality: [Criticality(SHALL,SHOULD,ETC)] -->
 - _Rationale:_
   - 1st sentence: Security risk if policy is not implemented. "The security risk of [context of policy]"
   - 2nd sentence: How this policy minimizes this risk. By [Verb] the risk of [Vulnerability] is minimized."
