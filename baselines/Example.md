@@ -90,13 +90,13 @@ POLICY 2.
 
 ### Implementation
 
-#### MS.M365PRODUCT.1.1v1 instructions:
+#### MS.M365PRODUCT.1.1v1 Instructions
 1.  For sequential steps utilize “\>”
     - **Example:** **Policies** \> **Sharing**)
 2.  Bold all-important buttonology
     - **Example:** **Policies**, **Sharing**, **More external sharing settings**)
 
-#### MS.M365PRODUCT.1.2v1 instructions:
+#### MS.M365PRODUCT.1.2v1 Instructions
 1.  For sequential steps utilize “\>”
     - **Example:** **Policies** \> **Sharing**)
 2.  Bold all-important buttonology
@@ -135,13 +135,13 @@ Policy 2.
 
 ### Implementation
 
-#### MS.M365PRODUCT.2.1v1 instructions:
+#### MS.M365PRODUCT.2.1v1 Instructions
 1.  For sequential steps utilize “\>”
     - **Example:** **Policies** \> **Sharing**)
 2.  Bold all-important buttonology
     - **Example:** **Policies**, **Sharing**, **More external sharing settings**)
 
-#### MS.M365PRODUCT.2.2v1 instructions:
+#### MS.M365PRODUCT.2.2v1 Instructions
 1.  For sequential steps utilize “\>”
     - **Example:** **Policies** \> **Sharing**)
 2.  Bold all-important buttonology
@@ -192,15 +192,15 @@ POLICY 2.
 
 ### Implementation
 
-#### MS.[TEAMSOREXO].3.1v1 instructions:
+#### MS.[TEAMSOREXO].3.1v1 Instructions
 Any product that meets the requirements outlined in this baseline policy may be used. If the agency is using Microsoft Defender, see the following implementation steps for [Shared policy group name between Defender, EXO and Teams](./defender.md#implementation) for additional guidance.
 < Ensure link to appropriate defender implementation section.
 
 **Example:**
-#### MS.TEAMS.3.1v1 instructions:
+#### MS.TEAMS.3.1v1 Instructions
 Any product that meets the requirements outlined in this baseline policy may be used. If the agency is using Microsoft Defender, see the following implementation steps for [DLP](./defender.md#implementation-3) for additional guidance.
 
-#### MS.[TEAMSOREXO].3.2v1 instructions:
+#### MS.[TEAMSOREXO].3.2v1 Instructions
 Any product that meets the requirements outlined in this baseline policy may be used. If the agency is using Microsoft Defender, see the following implementation steps for [Shared policy group name between Defender, EXO and Teams](./defender.md#implementation) for additional guidance.
 < Ensure link to appropriate defender implementation section.
 
