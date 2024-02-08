@@ -70,8 +70,12 @@ POLICY 1.
 - _Note:_ [As needed to note dependencies or "MAY" statements for more flexibility]
   - **Example:** "This policy is only applicable if the external sharing slider on the admin page is set to any value other than Only People in your Organization."
 
-#### MS.M365PRODUCT.1.2v1
-POLICY 2.
+#### MS.M365PRODUCT.1.2.X
+Policy has been removed in baseline version X.X.X.
+
+
+#### MS.M365PRODUCT.1.3v1
+POLICY 3.
 
 <!--Policy: MS.M365PRODUCT.1.2v1; Criticality: [Criticality(SHALL,SHOULD,ETC)] -->
 - _Rationale:_
@@ -96,7 +100,7 @@ POLICY 2.
 2.  Bold all-important buttonology
     - **Example:** **Policies**, **Sharing**, **More external sharing settings**)
 
-#### MS.M365PRODUCT.1.2v1 Instructions
+#### MS.M365PRODUCT.1.3v1 Instructions
 1.  For sequential steps utilize “\>”
     - **Example:** **Policies** \> **Sharing**)
 2.  Bold all-important buttonology
