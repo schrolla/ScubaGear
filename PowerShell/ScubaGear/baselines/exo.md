@@ -59,7 +59,7 @@ Identify any approved senders specific to your agency.
 Additionally, see [External DNS records required for SPF](https://learn.microsoft.com/en-us/microsoft-365/enterprise/external-domain-name-system-records?view=o365-worldwide#external-dns-records-required-for-spf) for
 inclusions required for Microsoft to send email on behalf of your domain.~~
 
-#### MS.EXO.2.2v1 Instructions
+#### MS.EXO.2.2v2 Instructions
 SPF is not configured through the Exchange admin center, but rather via
 DNS records hosted by the agency's domain. Thus, the exact steps needed
 to set up SPF varies from agency to agency. See [Add or edit an SPF TXT record to help prevent email spam (Outlook, Exchange Online) \| Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider?view=o365-worldwide#add-or-edit-an-spf-txt-record-to-help-prevent-email-spam-outlook-exchange-online) for more details.
@@ -82,4 +82,53 @@ via an additional SPF lookup, this time for "spf.protection.outlook.com." Ensure
 the IP addresses listed as approved senders for your domain are those identified for
 MS.EXO.2.1v1. See [SPF TXT record syntax for Microsoft 365 \| Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/email-authentication-anti-spoofing?view=o365-worldwide#spf-txt-record-syntax-for-microsoft-365) for a more in-depth discussion
 of SPF record syntax.
+
+## 3. DomainKeys Identified Mail
+
+DomainKeys Identified Mail (DKIM) allows digital signatures to be added
+to email messages in the message header, providing a layer of both
+authenticity and integrity to emails. As with SPF, DKIM relies on DNS
+records; thus, its deployment depends on how an agency manages its DNS.
+Exchange Online Protection (EOP) features include DKIM signing capabilities.
+
+### Policies
+
+#### MS.EXO.3.1v1
+DKIM SHOULD be enabled for all domains.
+
+<!--Policy: MS.EXO.3.1v1; Criticality: SHOULD -->
+- _Rationale:_ An adversary may modify the `FROM` field
+of an email such that it appears to be a legitimate email sent by an
+agency, facilitating phishing attacks. Enabling DKIM is another means for
+recipients to detect spoofed emails and verify the integrity of email content.
+- _Last modified:_ June 2023
+
+### Resources
+
+- [Binding Operational Directive 18-01 - Enhance Email and Web Security
+  \| DHS](https://cyber.dhs.gov/bod/18-01/)
+
+- [Trustworthy Email \| NIST 800-177 Rev.
+  1](https://csrc.nist.gov/publications/detail/sp/800-177/rev-1/final)
+
+- [Use DKIM to validate outbound email sent from your custom domain \|
+  Microsoft
+  Learn](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/email-authentication-dkim-configure?view=o365-worldwide)
+
+- [Support for validation of DKIM signed messages \| Microsoft
+  Learn](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/email-authentication-dkim-support-about?view=o365-worldwide)
+
+- [What is EOP? \| Microsoft
+  Learn](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/eop-faq?view=o365-worldwide#what-is-eop-)
+
+### License Requirements
+
+- N/A
+
+### Implementation
+
+#### MS.EXO.3.1v1 Instructions
+1. To enable DKIM, follow the instructions listed on [Steps to Create,
+enable and disable DKIM from Microsoft 365 Defender portal \| Microsoft
+Learn](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/email-authentication-dkim-configure?view=o365-worldwide#steps-to-create-enable-and-disable-dkim-from-microsoft-365-defender-portal).
 
