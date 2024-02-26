@@ -1,4 +1,114 @@
-Baseline Update Example 1:
+# Decisions:
+
+## Baseline vs Policy Number in Policy ID:
+### Keeping Baseline Number
+- Will need to update all policies regardless change if a policy in the baseline has updated (in the markdown and all other hardcoded instances (e.g. functional tests, .md files, rego))
+  - CON May cause a false sense of a policy change for users
+- PRO Allows exact identification of a policy to a baseline for troubleshooting efforts 
+- PRO David has noted he has started working on a automated way to increment baseline md files (for GWS)
+
+
+### Changing to Policy Number
+Changing baseline number to policy number in the current policy ID scheme 
+- PRO allows the user to identify if a policy has been updated
+- CON If a user identifies a policy ID that is not the currently version of the policy the team will need to parse through baseline versions to identify the correct version
+  - EXAMPLE: Current EXO Baseline v3.1.0 & Policy MS.EXO.1.1v8
+  - User requests information for MS.EXO.1.1v6; The M365 team would need to review multiple baselines versions to identify the correct policy 
+
+## Major & Minor increment changes for versions:
+### Baseline:
+Only Major increments: EXO.md v1.0 -> EXO.md v2.0  
+- PRO David has noted he has started working on a automated way to increment baseline md files (for GWS).
+- CON may cause a false sense in update for the user without reading the details in the changelog
+
+Mixed Major and Minor increases: EXO.md v1.0 -> EXO.md v1.1 -> EXO.md v2.0  
+- PRO David has noted he has started working on a automated way to increment baseline md files (for GWS). David noted that this can be adjusted for minor increases.
+- PRO allows the team to better define major and minor updates
+- CON If we are keeping baseline version in the policy ID, an enhancement would need to be made to support minor increases in policy IDs
+
+### Policy (only used if the policy ID has been updated to reflect policy version):
+Only Major increments: MS.EXO.1.1v1 -> MS.EXO.1.1v2
+- PRO supports the current policy automation 
+
+Mixed Major and Minor increases: MS.EXO.1.1v1 -> MS.EXO.1.1v1.1 -> MS.EXO.1.1v2
+- PRO allows the team to better define major and minor updates to a policy
+- CON need to define major and minor udaptes to a policy
+- CON Major updates to a policy can be seen as a "new" policy which can warrent a new policy ID
+
+## Baseline version consistency
+### Do we want to keep all baseline versions with each release?
+YES (major increases only)
+- aad.md v2.0
+- defender.md v2.0
+- exo.md v2.0
+
+  - PRO - uniformity across baselines
+  - PRO - David has noted he has started working on a automated way to increment baseline md files (for GWS).
+  - CON - can cause a false sense of update for the user
+  - CON - If a baseline does it update this will trigger all baselines and policy ID (if baseline version is used) to be updated 
+
+
+NO (major increases only)
+- aad.md v2.0
+- defender.md v1.0
+- exo.md v1.0
+
+  - PRO - Better alignment with updates to policies and updates for the reader to follow
+  - PRO - David has noted he has started working on a automated way to increment baseline md files (for GWS).
+
+
+YES (mixed major and minor increases)
+- aad.md v1.1
+- defender.md v1.1
+- exo.md v1.1
+
+  - PRO - uniformity across baselines
+  - PRO - David has noted he has started working on a automated way to increment baseline md files (for GWS).
+  - CON - can cause a false sense of update for the user
+  - CON - If a baseline does it update this will trigger all baselines and policy ID (if baseline version is used) to be updated 
+  - CON - If we are keeping baseline version in the policy ID, an enhancement would need to be made to support minor increases in policy IDs
+
+
+NO (mixed major and minor increases)
+- aad.md v2.1
+- defender.md v1.0
+- exo.md v1.4
+
+  - PRO - Better alignment with updates to policies and updates for the reader to follow
+  - PRO - David has noted he has started working on a automated way to increment baseline md files (for GWS).
+  - CON - If we are keeping baseline version in the policy ID, an enhancement would need to be made to support minor increases in policy IDs
+
+## Deleted Policy Format:
+### potentially adding in a separate md file for deleted policies
+  - PRO removes clutter of removed policies from markdown file
+  - CON may cause numbering gaps without full context
+  - Hybrid approach can list deleted policies and link to deleted markdown
+  - CON ENHANCEMENT additional automation needs to be created to support functionality of this new markdown file
+
+### changing v_ to X. Example: MS.EXO.2.1v1 -> MS.EXO.2.1X
+  - PRO currently the code reads the X and parses this policy out of the report (CON currently a bug)
+  - PRO there currently is 
+  - CON can cause confusion to the user due to change in format
+
+### using strikethrough formatting
+  - PRO easy identifier for the user to see policies that have been deleted
+  - CON enhancement is needed to update automation to support strikethrough
+
+### adding in a new policy note section below rationale and note
+ Format: MS.M365PRODUCT.GROUP#.POLICY#v# was removed in M365PRODUCT.md v[] because [rationale for removal]
+ EXAMPLE: 
+ - _Policy Note:_ Policy MS.EXO.2.1v1 was removed in exo.md version 1.1.0 because it is not a security configuation that can be audited and has been added to MS.EXO.2.2v2.
+  
+  - PRO does not clash with existing note section
+  - PRO provides the version of the baseline the policy was removed and rationale
+
+### deleting the policy and implmentation and only noting the removal in the changelog
+- PRO Do not have to worry about formatting and scalability
+- CON may cause confusion for users who do not read the changelog
+
+## Examples
+
+### Baseline Update Example 1:
 - updated version number in deleted policy to "X"
 - strikethrough policy ID, policy, and rationale
 - updated last modified to March 2024
@@ -9,18 +119,19 @@ Baseline Update Example 1:
 - updated MS.EXO.2.2v2 policy language
 - updated MS.EXO.2.2v2 last modified date
 - in implementation section updated version number in deleted policy to "X"
-- used strikethrough for implmentation section
+- used strikethrough for implementation section
+
 
 
 ### Policies
 
-#### ~~MS.EXO.2.1X~~
-~~A list of approved IP addresses for sending mail SHALL be maintained.~~
+~~#### MS.EXO.2.1X
+A list of approved IP addresses for sending mail SHALL be maintained.~~
 
 <!--Policy: MS.EXO.2.1v1; Criticality: SHALL -->
 ~~- _Rationale:_ Failing to maintain an accurate list of authorized IP addresses may result in spoofed email messages or failure to deliver legitimate messages when SPF is enabled. Maintaining such a list helps ensure that unauthorized servers sending spoofed messages can be detected, and permits message delivery from legitimate senders.~~
 - _Last modified:_ March 2024
-- _Note:_ Policy MS.EXO.2.1v1 was removed in exo.md version 1.1.0 because it is not a security configuation that can be audited and has been added to MS.EXO.2.2v2.
+- _Policy Note:_ Policy MS.EXO.2.1v1 was removed in exo.md version 1.1.0 because it is not a security configuation that can be audited and has been added to MS.EXO.2.2v2.
 
 
 #### MS.EXO.2.2v2
