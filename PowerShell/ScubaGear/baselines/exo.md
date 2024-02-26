@@ -87,7 +87,7 @@ NO (mixed major and minor increases)
 
 ### changing v_ to X. Example: MS.EXO.2.1v1 -> MS.EXO.2.1X
   - PRO currently the code reads the X and parses this policy out of the report (CON currently a bug)
-  - PRO there currently is 
+  - PRO currently the code does read "X" as deleted policies and can return text in the results column
   - CON can cause confusion to the user due to change in format
 
 ### using strikethrough formatting
