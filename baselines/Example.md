@@ -69,6 +69,9 @@ POLICY 1.
 - _Last modified:_ July 2023
 - _Note:_ [As needed to note dependencies or "MAY" statements for more flexibility]
   - **Example:** "This policy is only applicable if the external sharing slider on the admin page is set to any value other than Only People in your Organization."
+- _MITRE ATT&CK TTP Mapping:_
+  - [MITRE ATT&CK TTP ID](MITRE ATT&CK TTP Link)
+  - **Example:** [T1621: MFA Request Generation](https://attack.mitre.org/techniques/T1621/)
 
 #### MS.M365PRODUCT.1.2.X
 Policy has been removed in baseline version X.X.X.
@@ -82,6 +85,9 @@ POLICY 3.
   - 1st sentence: Security risk if policy is not implemented. "The security risk of [context of policy]"
   - 2nd sentence: How this policy minimizes this risk. By [Verb] the risk of [Vulnerability] is minimized."
 - _Last modified:_ July 2023
+- _MITRE ATT&CK TTP Mapping:_
+  - [MITRE ATT&CK TTP ID](MITRE ATT&CK TTP Link)
+  - **Example:** [T1621: MFA Request Generation](https://attack.mitre.org/techniques/T1621/)
 
 ### Resources
 
@@ -119,6 +125,9 @@ POLICY 1.
   - 1st sentence: Security risk if policy is not implemented. "The security risk of [context of policy]"
   - 2nd sentence: How this policy minimizes this risk. By [Verb] the risk of [Vulnerability] is minimized."
 - _Last modified:_ July 2023
+- _MITRE ATT&CK TTP Mapping:_
+  - [MITRE ATT&CK TTP ID](MITRE ATT&CK TTP Link)
+  - **Example:** [T1621: MFA Request Generation](https://attack.mitre.org/techniques/T1621/)
 
 #### MS.M365PRODUCT.2.2v1
 Policy 2.
@@ -128,6 +137,9 @@ Policy 2.
   - 1st sentence: Security risk if policy is not implemented. "The security risk of [context of policy]"
   - 2nd sentence: How this policy minimizes this risk. By [Verb] the risk of [Vulnerability] is minimized."
 - _Last modified:_ July 2023
+- _MITRE ATT&CK TTP Mapping:_
+  - [MITRE ATT&CK TTP ID](MITRE ATT&CK TTP Link)
+  - **Example:** [T1621: MFA Request Generation](https://attack.mitre.org/techniques/T1621/)
 
 ### Resources
 
