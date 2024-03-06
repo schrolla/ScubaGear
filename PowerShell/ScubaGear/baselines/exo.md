@@ -2,8 +2,8 @@
 
 ## Baseline vs Policy Number in Policy ID:
 ### Keeping Baseline Number
-- Will need to update all policies regardless change if a policy in the baseline has updated (in the markdown and all other hardcoded instances (e.g. functional tests, .md files, rego))
-  - CON May cause a false sense of a policy change for users
+- CON Will need to update all policies regardless change if a policy in the baseline has updated (in the markdown and all other hardcoded instances (e.g. functional tests, .md files, rego))
+- CON May cause a false sense of a policy change for users
 - PRO Allows exact identification of a policy to a baseline for troubleshooting efforts 
 - PRO David has noted he has started working on a automated way to increment baseline md files (for GWS)
 
