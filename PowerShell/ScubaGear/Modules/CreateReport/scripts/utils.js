@@ -44,6 +44,7 @@ const setDarkMode = (state) => {
  * Toggles light and dark mode
  */
 const toggleDarkMode = () => {
+    console.log(document.getElementById('toggle').checked);
     if (document.getElementById('toggle').checked) {
         setDarkMode('true');
     }

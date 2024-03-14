@@ -300,4 +300,12 @@ window.addEventListener('DOMContentLoaded', (event) => {
     colorRows();
     fillCAPTable();
     mountDarkMode("Individual Report");
+
+    const darkModeSwitch = document.querySelector(".switch");
+    darkModeSwitch.onkeydown = (e) => {
+        if(e.key === 32) {
+            console.log("press space")
+            toggleDarkMode();
+        }
+    };
 });
